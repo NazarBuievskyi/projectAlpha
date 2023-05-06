@@ -1,12 +1,14 @@
 import './App.css'
+import ExpandableText from "./components/ExpandableText";
 
 function App() {
 
 
+
     return (
-        <div>
-            <h1>XXXXXXXXXXXXXXXXXXXXXXXXXX</h1>
-        </div>
+        <ExpandableText maxChars={20}>
+            Hello afkadf asddg sfgsf gsf gs gsr g
+        </ExpandableText>
     )
 }
 
