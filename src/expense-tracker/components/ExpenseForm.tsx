@@ -1,11 +1,9 @@
 import React from 'react';
-
-export const categories = ['Groceries', 'Utilities', 'Entertainment'] as const
 import {useForm} from "react-hook-form";
 import {zodResolver} from "@hookform/resolvers/zod";
 import {z} from 'zod'
-import {Simulate} from "react-dom/test-utils";
-import reset = Simulate.reset;
+
+export const categories = ['Groceries', 'Utilities', 'Entertainment'] as const
 
 
 interface Props {
